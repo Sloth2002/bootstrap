@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* Nav */
+.nav-pills {
+  padding: 25px;
+  background-color: #404040;
+}
+
+.ttext {
+  text-align: center;
+}
+
+/* Cards */
+
+.flex1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 25px;
+  width: 100%;
+}
+
+.flex-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Amenities */
+
+li {
+  list-style-type: none;
+}
+
+.amenities {
+  background-image: url("images/background.png");
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  background-color: #404040;
+  color: white;
+  padding: 8px;
+}
+
+.contact-page {
+  margin: 25px;
+  text-align: center;
+}
+
+.contact-flex {
+  margin: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
